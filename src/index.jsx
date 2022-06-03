@@ -1,10 +1,10 @@
 import "./main.scss"
 import React from "react"
 import ReactDom from "react-dom"
-import Calcu from "./components/Calculadora/Calcu"
+import App from "./components/App/App"
 
 ReactDom.render(
-  <Calcu />,
+  <App />,
   document.getElementById("root"),
 
 )

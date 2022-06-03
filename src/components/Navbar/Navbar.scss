@@ -1,0 +1,15 @@
+@import 'bootstrap';
+
+.navbar{
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-item {
+    margin: 0px 10px;
+    border-bottom: 4px solid transparent;
+    padding-bottom: 0px;
+}
+.nav-item a:hover{
+    border-bottom: 4px solid black;
+}
