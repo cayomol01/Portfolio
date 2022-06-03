@@ -8,16 +8,16 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-lg navbar-light justify-content-center">
       <ul className="nav justify-content-center">
         <li className="nav-item">
-          <a className="nav-link active" href="#">Active</a>
+          <a className="nav-link active" href="#">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Link</a>
+          <a className="nav-link" href="#">Projects</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Link</a>
+          <a className="nav-link" href="#">About</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link "> Link</a>
+          <a className="nav-link "> Contact</a>
         </li>
       </ul>
     </nav>
