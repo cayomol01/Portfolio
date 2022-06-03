@@ -6,6 +6,7 @@ import Container1 from "../Intro/Intro"
 import Fondo from "../../assets/Background.mp4"
 import Container2 from "../Projects/Projects"
 import Container3 from "../About/About"
+import Container4 from "../Contact/Contact"
 
 export default function App() {
   return (
@@ -41,7 +42,7 @@ export default function App() {
           <video src={Fondo} autoPlay loop muted />
         </div>
         <div className="cntct">
-
+          <Container4 />
         </div>
       </section>
 

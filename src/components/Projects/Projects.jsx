@@ -16,7 +16,7 @@ export default function App() {
   const im1 = FotoCalcu
   const im2 = Back
   const im3 = FotoPagina
-  const link1 = "http://52.21.33.52:3060/"
+  const link1 = "http://52.21.33.52:3063/"
   const link2 = "http://52.21.33.52:3062/"
   const link3 = "http://52.21.33.52:3061/"
 
