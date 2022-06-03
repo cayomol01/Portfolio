@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Titillium+Web:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&family=Josefin+Sans:wght@300&display=swap');
+
+.cont1{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 0;
+    z-index: 10;
+}
+.intro{
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.intro .name{
+    font-size: 7.5rem;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(230, 230, 230);
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.intro .job{
+    font-size: 2rem;
+    font-family: 'Arimo', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(230, 230, 230);
+    margin-bottom: 20px;
+    padding: 0;
+    text-align: center;
+    
+}
+
+h2 {
+    text-align: center;
+}
+
+.foto{
+    width: 225px;
+    height: 225px;
+    background-color: transparent;
+    background: url('../../assets/FotoPerfil.jpeg') no-repeat center center/cover;
+    background-size: contain;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.row {
+    width:100%;
+}
+
+p {
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(230, 230, 230);
+    font-size: 20px;
+}
