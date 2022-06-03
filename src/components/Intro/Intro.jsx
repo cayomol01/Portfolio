@@ -20,7 +20,7 @@ export default function Navbar() {
           <p>
             Creando páginas web para poder darle vida a tus y mis ideas.
             Desde lo más absurdo como un videojuego hasta una página personal.
-            Un paso a la vez, se podrás tener una página web que te ayude a dar
+            Un paso a la vez, para que puedas tener una página web que te ayude a dar
             un mejor servicio a tus clientes o incluso atraer a más clientes.
           </p>
         </div>

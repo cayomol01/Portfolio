@@ -1,1 +1,106 @@
-@import 'bootstrap'
+@import 'bootstrap';
+
+.card{
+    width: 100%;
+    height: 80%;
+    background-color: transparent;
+    z-index: 10;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+
+
+}
+
+
+.Principal{
+    width:100%;
+    height:100%;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card:hover .Principal {
+    display: none;
+}
+
+.card:hover .estilizar {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.card:hover .Info {
+    display: inline-block;
+}
+
+.estilizar{
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+	position: absolute;
+}
+
+h4{
+    z-index: 10;
+    width:100%;
+    text-align: center;
+    color: white;
+    margin:auto;
+}
+
+.Info{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    z-index: 10;
+    padding: 20px;
+    border-radius: 10px;
+    align-items: center;
+    flex-direction: column;
+    display:none;
+}
+p{
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(230, 230, 230);
+    font-size: 20px;
+    text-align: left;
+    z-index: 10;
+}
+
+.TituloC{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    z-index: 10;
+}
+
+.visitar{
+    height:auto;
+    width:auto;
+    background-color: rgb(230, 230, 230);
+    z-index: 11;
+    padding: 10px;
+    padding-right:20px;
+    padding-left: 20px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    margin:auto;
+    text-decoration: none;
+    color:rgb(50, 50, 50);
+    margin-top: 10px;
+
+}
+
+.visitar:hover {
+    background-color:rgb(22, 0, 100);
+    color: rgb(230, 230, 230);
+}
+
