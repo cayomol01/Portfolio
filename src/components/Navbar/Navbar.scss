@@ -5,10 +5,10 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.nav-item {
+.nav-item a{
     margin: 0px 10px;
     border-bottom: 4px solid transparent;
-    padding-bottom: 0px;
+    padding-bottom: 5px;
 }
 .nav-item a:hover{
     border-bottom: 4px solid black;
